@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #8B51FD;
+}
+
+.img-logo {
+    display: block;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+main {
+    background: white;
+    width: 355px;
+    height: 555px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px 24px 10px;
+    font-size: 10px;
+}
+
+label {
+    color: #777777;
+    font-weight: 700px;
+    font-size: 14px;
+}
+
+select {
+    border: solid #BBBBBB;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    appearance: none;
+    padding-left: 15px;
+    color: #555555;
+    font-weight: 700;
+}
+
+select:hover {
+    background: rgb(215, 215, 215);
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: solid #BBBBBB;
+    padding-left: 15px;
+    color: #555555;
+    font-weight: 700;
+
+}
+
+section {
+    justify-items: center;
+    border: solid #8B51FD;
+    border-radius: 20px;
+    font-size: 10px;
+    height: 258px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 5px 50px;
+    background: #8B51FD;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #b592fa;
+    cursor: pointer;
+}
+
+button:active {
+    background: #9763ff;
+}
+
+.div-converter {
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.div-convertido {
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+}
