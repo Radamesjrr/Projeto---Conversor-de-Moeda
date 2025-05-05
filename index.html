@@ -18,38 +18,38 @@
     <main>
 
         <label>Converter <b>de</b></label>
-        <select>
+        <select class="select-converterde">
             <option>R$ Real brasileiro</option>
             <option>US$ Dólar Americano</option>
         </select>
 
         <label>Converter <b>para</b></label>
-        <select>
-            <option>US$ Dólar Americano</option>
-            <option>€ Euro</option>
-            <option>Bitcoin</option>
+        <select class="select-converterpara">
+            <option value="Dólar">US$ Dólar Americano</option>
+            <option value="Euro">€ Euro</option>
+            <option value="Peso">$ Peso Argentino</option>
         </select>
 
         <label><b>Valor</b></label>
-        <input placeholder="R$">
+        <input class="input-valor" type="number" placeholder="R$">
 
-        <button class="button-converter" onclick="cliqueinobotao()">Converter</button>
+        <button class="button-converter">Converter</button>
 
         <section>
 
             <div class="div-converter">
-                <img src="assets/brasil 2.png" ">
+                <img class="img-01" src="assets/brasil 2.png">
                 <p>Real</p>
-                <h2>R$ 0</h2>
+                <h2 class="valor-a-converter">R$ 0</h2>
             </div>
 
             <div> <img src=" assets/Vector.png" alt="img-seta">
             </div>
 
             <div class="div-convertido">
-                <img src="assets/estados-unidos (1) 1.png" alt="logo-moeda-convertida">
-                <p>Dólar Americano</p>
-                <h2>US$ 0</h2>
+                <img class="img-02" src="assets/estados-unidos (1) 1.png" alt="logo-moeda-convertida">
+                <p class="descriçao-moeda">Dólar Americano</p>
+                <h2 class="valor-convertido">US$ 0</h2>
             </div>
 
 
@@ -60,3 +60,4 @@
 <script src="script.js"></script>
 
 </html>
+
